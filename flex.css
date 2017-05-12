@@ -1,0 +1,315 @@
+@charset "utf-8";
+/********************
+名称: FlexUI
+作者: 曾宪明
+联系：seovery@qq.com
+创建: 2015.12.28
+修改: 2017.04.16
+版本: v5.0
+********************/
+/*app*/
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    min-width: 16rem;
+    max-width: 24rem;
+    margin: 0 auto;
+}
+.apphead {
+    flex: 0 0 auto;
+    min-height: 1rem;
+}
+.appfoot {
+    flex: 0 0 auto;
+    min-height: 1rem;
+    text-align: center;
+}
+.appmain {
+    flex: 1 1 auto;
+}
+/*flex core*/
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+}
+.flex>ul,
+.flex>li,
+.flex>div {
+    flex: 0 0 auto;
+}
+.flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+}
+.flex-grid>ul,
+.flex-grid>li,
+.flex-grid>div {
+    flex: 1 1 auto;
+}
+.flex-line {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+}
+.flex-line>ul,
+.flex-line>li,
+.flex-line>div {
+    flex: 0 0 100%;
+}
+.flex-row {
+    flex-direction: row;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+.flex-rewrap {
+    flex-wrap: wrap-reverse;
+}
+/*flex-x*/
+.flex-left {
+    justify-content: flex-start;
+}
+.flex-right {
+    justify-content: flex-end;
+}
+.flex-center {
+    justify-content: center;
+}
+.flex-between {
+    justify-content: space-between;
+}
+.flex-around {
+    justify-content: space-around;
+}
+/*flex-y*/
+.flex-stretch {
+    align-items: stretch;
+}
+.flex-top {
+    align-items: flex-start;
+}
+.flex-bottom {
+    align-items: flex-end;
+}
+.flex-middle {
+    align-items: center;
+}
+.flex-baseline {
+    align-items: baseline;
+}
+/*flex-xz*/
+.flexz-stretch {
+    align-content: stretch;
+}
+.flexz-start {
+    align-content: flex-start;
+}
+.flexz-end {
+    align-content: flex-end;
+}
+.flexz-center {
+    align-content: center;
+}
+.flexz-between {
+    align-content: space-between;
+}
+.flexz-around {
+    align-content: space-around;
+}
+/*flex-yz*/
+.flexz-auto {
+    align-self: auto;
+}
+.flexz-stretch {
+    align-self: stretch;
+}
+.flexz-top {
+    align-self: flex-start;
+}
+.flexz-bottom {
+    align-self: flex-end;
+}
+.flexz-middle {
+    align-self: center;
+}
+.flexz-baseline {
+    align-self: baseline;
+}
+/*width*/
+.wd-auto {
+    flex: 0 0 auto;
+}
+.wd-free {
+    flex: 1 1 0;
+}
+.wd-10,
+.wdn-10>li,
+.wdn-10>div {
+    flex: 0 0 0.5rem;
+}
+.wd-20,
+.wdn-20>li,
+.wdn-20>div {
+    flex: 0 0 1rem;
+}
+.wd-30,
+.wdn-30>li,
+.wdn-30>div {
+    flex: 0 0 1.5rem;
+}
+.wd-40,
+.wdn-40>li,
+.wdn-40>div {
+    flex: 0 0 2rem;
+}
+.wd-50,
+.wdn-50>li,
+.wdn-50>div {
+    flex: 0 0 2.5rem;
+}
+.wd-60,
+.wdn-60>li,
+.wdn-60>div {
+    flex: 0 0 3rem;
+}
+.wd-70,
+.wdn-70>li,
+.wdn-70>div {
+    flex: 0 0 3.5rem;
+}
+.wd-80,
+.wdn-80>li,
+.wdn-80>div {
+    flex: 0 0 4rem;
+}
+.wd-90,
+.wdn-90>li,
+.wdn-90>div {
+    flex: 0 0 4.5rem;
+}
+.wd-100,
+.wdn-100>li,
+.wdn-100>div {
+    flex: 0 0 5rem;
+}
+.wd-110,
+.wdn-110>li,
+.wdn-110>div {
+    flex: 0 0 5.5rem;
+}
+.wd-120,
+.wdn-120>li,
+.wdn-120>div {
+    flex: 0 0 6rem;
+}
+.wd-130,
+.wdn-130>li,
+.wdn-130>div {
+    flex: 0 0 6.5rem;
+}
+.wd-140,
+.wdn-140>li,
+.wdn-140>div {
+    flex: 0 0 7rem;
+}
+.wd-150,
+.wdn-150>li,
+.wdn-150>div {
+    flex: 0 0 7.5rem;
+}
+.wd-160,
+.wdn-160>li,
+.wdn-160>div {
+    flex: 0 0 8rem;
+}
+.wd-170,
+.wdn-170>li,
+.wdn-170>div {
+    flex: 0 0 8.5rem;
+}
+.wd-180,
+.wdn-180>li,
+.wdn-180>div {
+    flex: 0 0 9rem;
+}
+.wd-190,
+.wdn-190>li,
+.wdn-190>div {
+    flex: 0 0 9.5rem;
+}
+.wd-200,
+.wdn-200>li,
+.wdn-200>div {
+    flex: 0 0 10rem;
+}
+.wd-210,
+.wdn-210>li,
+.wdn-210>div {
+    flex: 0 0 10.5rem;
+}
+.wd-220,
+.wdn-220>li,
+.wdn-220>div {
+    flex: 0 0 11rem;
+}
+.wd-230,
+.wdn-230>li,
+.wdn-230>div {
+    flex: 0 0 11.5rem;
+}
+.wd-240,
+.wdn-240>li,
+.wdn-240>div {
+    flex: 0 0 12rem;
+}
+.wd-250,
+.wdn-250>li,
+.wdn-250>div {
+    flex: 0 0 12.5rem;
+}
+.wd-260,
+.wdn-260>li,
+.wdn-260>div {
+    flex: 0 0 13rem;
+}
+.wd-270,
+.wdn-270>li,
+.wdn-270>div {
+    flex: 0 0 13.5rem;
+}
+.wd-280,
+.wdn-280>li,
+.wdn-280>div {
+    flex: 0 0 14rem;
+}
+.wd-290,
+.wdn-290>li,
+.wdn-290>div {
+    flex: 0 0 14.5rem;
+}
+.wd-300,
+.wdn-300>li,
+.wdn-300>div {
+    flex: 0 0 15rem;
+}
+.wd-310,
+.wdn-310>li,
+.wdn-310>div {
+    flex: 0 0 15.5rem;
+}
+.wd-320,
+.wdn-320>li,
+.wdn-320>div {
+    flex: 0 0 16rem;
+}
