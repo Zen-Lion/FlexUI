@@ -151,7 +151,7 @@
     flex: 0 0 auto;
 }
 .wd-free {
-    flex: 1 1 0;
+    flex: 1 1 auto;
 }
 .wd-10,
 .wdn-10>li,
