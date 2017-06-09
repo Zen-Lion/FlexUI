@@ -41,26 +41,6 @@
 .flex>div {
     flex: 0 0 auto;
 }
-.flex-grid {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 1 auto;
-}
-.flex-grid>ul,
-.flex-grid>li,
-.flex-grid>div {
-    flex: 1 1 auto;
-}
-.flex-line {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 0 0 100%;
-}
-.flex-line>ul,
-.flex-line>li,
-.flex-line>div {
-    flex: 0 0 100%;
-}
 .flex-row {
     flex-direction: row;
 }
@@ -75,6 +55,100 @@
 }
 .flex-rewrap {
     flex-wrap: wrap-reverse;
+}
+.flex-line {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+}
+.flex-line>ul,
+.flex-line>li,
+.flex-line>div {
+    flex: 0 0 100%;
+}
+.flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+}
+.flex-grid>ul,
+.flex-grid>li,
+.flex-grid>div {
+    flex: 1 1 auto;
+}
+.flex-grid1,
+.flex-grid2,
+.flex-grid3,
+.flex-grid4,
+.flex-grid5,
+.flex-grid6,
+.flex-grid7,
+.flex-grid8,
+.flex-grid9,
+.flex-grid10 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+}
+.flex-grid1>ul,
+.flex-grid1>li,
+.flex-grid1>div {
+    flex: 0 0 100%;
+    overflow: hidden;
+}
+.flex-grid2>ul,
+.flex-grid2>li,
+.flex-grid2>div {
+    flex: 0 0 50%;
+    overflow: hidden;
+}
+.flex-grid3>ul,
+.flex-grid3>li,
+.flex-grid3>div {
+    flex: 0 0 33.333333%;
+    overflow: hidden;
+}
+.flex-grid4>ul,
+.flex-grid4>li,
+.flex-grid4>div {
+    flex: 0 0 25%;
+    overflow: hidden;
+}
+.flex-grid5>ul,
+.flex-grid5>li,
+.flex-grid5>div {
+    flex: 0 0 20%;
+    overflow: hidden;
+}
+.flex-grid6>ul,
+.flex-grid6>li,
+.flex-grid6>div {
+    flex: 0 0 16.666667%;
+    overflow: hidden;
+}
+.flex-grid7>ul,
+.flex-grid7>li,
+.flex-grid7>div {
+    flex: 0 0 14.285714%;
+    overflow: hidden;
+}
+.flex-grid8>ul,
+.flex-grid8>li,
+.flex-grid8>div {
+    flex: 0 0 12.5%;
+    overflow: hidden;
+}
+.flex-grid9>ul,
+.flex-grid9>li,
+.flex-grid9>div {
+    flex: 0 0 11.111111%;
+    overflow: hidden;
+}
+.flex-grid10>ul,
+.flex-grid10>li,
+.flex-grid10>div {
+    flex: 0 0 10%;
+    overflow: hidden;
 }
 /*flex-x*/
 .flex-left {
